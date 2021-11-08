@@ -1,0 +1,262 @@
+*{
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navSpace{
+  background-color:black;
+  height: 50px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navContainer{
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:white;
+}
+
+#profileAndMenu{
+  width: 340px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.nav-links{
+  display: flex;
+  list-style-type: none;
+  }
+
+#navLinks1, #navLinks2, #navLinks3, button{
+  color: white;
+  text-decoration: none;
+  margin-right: 25px;
+}
+
+#navLinks1, #navLinks2, #navLinks3{
+  font-size: 12px;
+}
+
+button{
+  font-size: 13px;
+}
+
+.active{
+  font-weight: bold;
+}
+
+button{
+  background-color: rgb(47, 185, 228);
+  border: none;
+  font-weight: bold;
+  padding: 2px 8px;
+  box-shadow: 3px 3px black;
+}
+
+.mainContainer{
+  margin: 0 auto;
+  display:flex;
+  justify-content: center; 
+}
+.rightColumn, leftColumn{
+  margin: 0 20px;
+}
+
+.topRow1, .bottomRow1{
+  width:320px;
+  position: relative;
+  top: 40px;
+  margin-bottom: 20px;
+}
+
+.rightTopRow{
+  position: relative;
+  top: 40px;
+}
+
+.rightBottomRow, .rightRowTop{
+  width:180px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.topBar{
+  height: 50px;
+  background-color: rgb(47, 185, 228);
+  border: 2px solid rgb(47, 185, 228);
+  padding-left: 20px;
+}
+
+.bottomBar{
+  height:165px;
+  display: flex;
+  flex-direction:  column;
+  border-top: none;
+  padding-left: 20px;
+}
+
+
+.topBarBottom {               
+  height: 25px;
+  padding-left: 20px;
+}
+
+.rightTopRowTopBar, .rightBottomRowTopBar{               
+  height: 40px;
+}
+
+.rightTopRowTopBar, .rightBottomRowTopBar,.topBarBottom {               
+  background-color: rgb(36, 45, 48);
+  border: 2px solid rgb(36, 45, 48);
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.rightTopRowTopBar, .rightBottomRowTopBar {               
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.bottomBarBottom{
+  height:120px;
+}
+
+.rightTopRowBottomBar{
+  height:70px;
+  padding-right: 3px;
+}
+
+.rightTopRowBottomBar, .bottomBarBottom{
+  border-top: none;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  margin-bottom: 60px;
+}
+.rightBottomRowBottomBar1,.rightBottomRowBottomBar2,.rightTopRowBottomBar,.bottomBarBottom, .bottomBar{
+  border: 2px solid grey;
+  border-top:none;
+
+}
+.rightBottomRowBottomBar1, .rightBottomRowBottomBar2{
+  height:150px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+}
+
+.bottomBarBottom{
+  border-bottom: none;
+}
+
+#rightBottomRowBottomBar2{
+  height: 25px;
+}
+
+#avatar{
+  height: 60px;
+  width: 60px;
+  border: 3px solid grey;
+  padding: 1px;
+  border-radius: 50%;
+  position: relative;
+  top:-35px;
+}
+.avatarSmall{
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.connectionsContact1, .connectionsContact2, .connectionsContact3, .connectionsContact4{
+  display: flex;
+  align-items:center; 
+}
+
+#requestor1, #requestor2{
+  display: flex;
+  justify-content: space-between; 
+}
+
+.requestorCells{
+  display:  flex;
+  align-items: center;
+}
+
+.requestButtons{
+  height: 20px;
+  width: 20px;
+  margin-right: 3px;
+}
+
+#mapMarker{
+  height: 15px;
+  width:10px;
+  position: relative;
+  margin-right: 10px;
+  }
+  
+#gear{
+  height: 12px;
+  width: 12px;
+  margin-right: 10px;
+}
+
+.infoContent{
+  position: relative;
+  top: -27px;  
+}
+
+.location{
+  display: flex;
+  margin: 5px 5px 5px 0px;
+}
+
+.editSection{
+  display: flex;
+  align-items: center;
+  margin: 7px 5px 5px 0px;
+}
+
+p, #hyperLinks, #editProfile{
+  font-size:13px;
+  font-weight: bold;
+  color:inherit;
+}
+
+#hyperLinks, #editProfile{
+  color:blue;
+}
+
+#bootcampDate{
+  color: gray;
+}
+
+h4{
+  margin: 0px 7px 0px 0px;
+}
+#connectionCount, #connectionRequestCount{
+  margin-right: 7px;
+  background-color: rgb(185, 180, 180);
+  border: 2px solid rgb(185, 180, 180);
+  border-radius: 50%;
+  color:black;
+}
+#connectionRequestCount{
+  width: 16px;
+  text-align: center;
+}
+
+#connectionCount{
+  padding: 2px;
+}
